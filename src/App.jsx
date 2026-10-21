@@ -68,7 +68,7 @@ function App() {
         <h2 className="section-title">What Awaits You</h2>
 
         <div className="experience-cards">
-          <div className="experience-card">
+          <div className="experience-card" data-card="evening-investigations">
             <h3>Evening Investigations</h3>
             <p>
               As darkness falls over the castle, your investigation begins.
@@ -78,7 +78,7 @@ function App() {
             </p>
           </div>
 
-          <div className="experience-card">
+          <div className="experience-card" data-card="character-encounters">
             <h3>Character Encounters</h3>
             <p>
               Meet the enigmatic residents of the castle. Each character holds a
@@ -88,7 +88,7 @@ function App() {
             </p>
           </div>
 
-          <div className="experience-card">
+          <div className="experience-card" data-card="atmospheric-immersion">
             <h3>Atmospheric Immersion</h3>
             <p>
               Experience the castle as a crime scene. Wander through candlelit
@@ -99,7 +99,7 @@ function App() {
             </p>
           </div>
 
-          <div className="experience-card">
+          <div className="experience-card" data-card="collaborative-discovery">
             <h3>Collaborative Discovery</h3>
             <p>
               The greatest mysteries require collaboration. Combine insights
@@ -109,7 +109,7 @@ function App() {
             </p>
           </div>
 
-          <div className="experience-card">
+          <div className="experience-card" data-card="castle-banquets">
             <h3>Castle Banquets</h3>
             <p>
               Share meals with fellow investigators in the grand dining hall.
@@ -118,7 +118,7 @@ function App() {
             </p>
           </div>
 
-          <div className="experience-card">
+          <div className="experience-card" data-card="final-revelation">
             <h3>Final Revelation</h3>
             <p>
               As the weekend draws to a close, gather in the great hall for the
