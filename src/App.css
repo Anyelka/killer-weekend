@@ -79,6 +79,13 @@
   }
 }
 
+.title-line {
+  display: block;
+  line-height: 1.2;
+  animation: fadeInTitle 0.8s ease-out backwards;
+  white-space: nowrap;
+}
+
 .hero-tagline {
   font-size: 1.5rem;
   color: var(--accent);
@@ -109,12 +116,6 @@
   @media (max-width: 768px) {
     font-size: 1rem;
   }
-}
-
-.title-line {
-  display: block;
-  line-height: 1.2;
-  animation: fadeInTitle 0.8s ease-out backwards;
 }
 
 .title-line:nth-child(1) {
