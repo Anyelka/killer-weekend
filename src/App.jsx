@@ -53,7 +53,12 @@ function App() {
           </h1>
           <p className="hero-tagline">
             Uncover secrets hidden within the walls of{" "}
-            <a href="https://www.szidonia.hu/en" className="accent-link">
+            <a
+              href="https://www.szidonia.hu/en"
+              className="accent-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Síd​ó​nia Castle
             </a>
           </p>
@@ -150,7 +155,12 @@ function App() {
               <div className="detail-icon">🏰</div>
               <h3>
                 <p className="detail-text">
-                  <a href="https://www.szidonia.hu/en" className="accent-link">
+                  <a
+                    href="https://www.szidonia.hu/en"
+                    className="accent-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Síd​ó​nia Castle
                   </a>
                 </p>
@@ -184,12 +194,13 @@ function App() {
           </div>
 
           <p className="footer-text">
-            Find out more{" "}
             <a
               href="https://gyilkoshetvege.hu/mi-az-a-gyilkos-hetvege"
               className="footer-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              here
+              Find out more here
             </a>
           </p>
         </div>
