@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./App.css";
 
 // Set VITE_DISABLE_ANIMATIONS=true in .env to disable animations for testing
-const DISABLE_ANIMATIONS = import.meta.env.VITE_DISABLE_ANIMATIONS === 'true';
+const DISABLE_ANIMATIONS = import.meta.env.VITE_DISABLE_ANIMATIONS === "true";
 
 function App() {
   useEffect(() => {
@@ -91,10 +91,11 @@ function App() {
           <div className="experience-card">
             <h3>Atmospheric Immersion</h3>
             <p>
-              Experience the castle as it was meant to be witnessed. Wander
-              through candlelit corridors, explore hidden chambers, and feel the
-              weight of centuries pressing down. The atmosphere is as much a
-              mystery as any clue.
+              Experience the castle as a crime scene. Wander through candlelit
+              corridors where secrets echo off ancient stone. Explore hidden
+              chambers that could be murder locations. The oppressive atmosphere
+              mirrors the psychological tension of hunting a killer among
+              friends — just like in Árulók, but deadly.
             </p>
           </div>
 
@@ -122,7 +123,8 @@ function App() {
             <p>
               As the weekend draws to a close, gather in the great hall for the
               dramatic conclusion. Will your theory prove correct? Will you
-              unmask the culprit? The truth awaits in the final hours.
+              unmask the culprit? Or will it be ágyesz-bogyesz? The truth awaits
+              in the final hours.
             </p>
           </div>
         </div>

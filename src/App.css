@@ -55,9 +55,17 @@ body.no-animations .detail-icon {
   transition: width 0.4s ease;
 }
 
-.accent-link:hover,
 .accent-link:visited {
   color: #d4af37 !important;
+}
+
+.accent-link:hover {
+  color: #ffd700 !important;
+  text-shadow:
+    0 0 10px rgba(212, 175, 55, 0.6),
+    0 0 20px rgba(212, 175, 55, 0.4),
+    0 0 30px rgba(212, 175, 55, 0.2) !important;
+  animation: glowUp 0.6s ease-out;
 }
 
 .accent-link:hover::after {
@@ -69,6 +77,26 @@ body.no-animations .detail-icon {
 .accent-link:focus {
   color: #ffd700 !important;
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+@keyframes glowUp {
+  0% {
+    text-shadow:
+      0 0 5px rgba(212, 175, 55, 0.3),
+      0 0 10px rgba(212, 175, 55, 0.2);
+  }
+  50% {
+    text-shadow:
+      0 0 15px rgba(255, 215, 0, 0.8),
+      0 0 25px rgba(212, 175, 55, 0.5),
+      0 0 35px rgba(212, 175, 55, 0.3);
+  }
+  100% {
+    text-shadow:
+      0 0 10px rgba(212, 175, 55, 0.6),
+      0 0 20px rgba(212, 175, 55, 0.4),
+      0 0 30px rgba(212, 175, 55, 0.2);
+  }
 }
 
 /* ============================================
@@ -612,7 +640,11 @@ body.no-animations .detail-icon {
 
 .footer-link:hover {
   color: #ffd700;
-  text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+  text-shadow:
+    0 0 10px rgba(212, 175, 55, 0.6),
+    0 0 20px rgba(212, 175, 55, 0.4),
+    0 0 30px rgba(212, 175, 55, 0.2);
+  animation: glowUp 0.6s ease-out;
 }
 
 .footer-subtext {
