@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import "./App.css";
 
-// Set to true to disable all appear animations for testing
-const DISABLE_ANIMATIONS = true;
+// Set VITE_DISABLE_ANIMATIONS=true in .env to disable animations for testing
+const DISABLE_ANIMATIONS = import.meta.env.VITE_DISABLE_ANIMATIONS === 'true';
 
 function App() {
   useEffect(() => {
