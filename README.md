@@ -6,7 +6,7 @@ A React + Vite landing page featuring a dramatic hero section with images and en
 
 ### Prerequisites
 
-- Node.js 16+ 
+- Node.js 16+
 - npm
 
 ### Installation
