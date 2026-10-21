@@ -94,8 +94,8 @@ function App() {
               Experience the castle as a crime scene. Wander through candlelit
               corridors where secrets echo off ancient stone. Explore hidden
               chambers that could be murder locations. The oppressive atmosphere
-              mirrors the psychological tension of hunting a killer among
-              friends — just like in Árulók, but deadly.
+              mirrors the psychological tension of hunting a killer. Just make
+              sure to check if the door is locked before going to sleep!
             </p>
           </div>
 
@@ -103,9 +103,9 @@ function App() {
             <h3>Collaborative Discovery</h3>
             <p>
               The greatest mysteries require collaboration. Combine insights
-              with other guests, piece together evidence, and race against time
-              to solve the murder before the weekend ends. Will you crack the
-              case?
+              with your husband and other guests, piece together evidence, and
+              race against time to solve the murder before the weekend ends.
+              Will you crack the case?
             </p>
           </div>
 
@@ -155,7 +155,10 @@ function App() {
                   </a>
                 </p>
               </h3>
-              <p className="detail-subtext">Hungary</p>
+              <p className="detail-subtext">Röjtökmuzsaj</p>
+              <p className="detail-subtext">
+                Far from safety, the silent trees feast on stolen screams.
+              </p>
             </div>
 
             <div className="detail-card">
@@ -163,7 +166,10 @@ function App() {
               <h3>
                 <p className="detail-text">Interactive Investigation</p>
               </h3>
-              <p className="detail-subtext">Solve mysteries, uncover clues</p>
+              <p className="detail-subtext">
+                Finally you can put your investigation skills to the test and
+                not get murdered on the first night!
+              </p>
             </div>
 
             <div className="detail-card">
@@ -172,7 +178,7 @@ function App() {
                 <p className="detail-text">Group Experience</p>
               </h3>
               <p className="detail-subtext">
-                30 participants, collaborative puzzles
+                30 participants, collaborative puzzles.
               </p>
             </div>
           </div>
