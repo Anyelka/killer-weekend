@@ -1,5 +1,5 @@
-import "./App.css";
 import { useEffect } from "react";
+import "./App.css";
 
 // Set to true to disable all appear animations for testing
 const DISABLE_ANIMATIONS = true;
@@ -18,13 +18,41 @@ function App() {
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-            <span className="title-line">One weekend<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
-            <span className="title-line">One castle<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
-            <span className="title-line">One married couple<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
-            <span className="title-line">And 28 other<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
+            <span className="title-line">
+              One weekend
+              <span className="title-dots">
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+              </span>
+            </span>
+            <span className="title-line">
+              One castle
+              <span className="title-dots">
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+              </span>
+            </span>
+            <span className="title-line">
+              One married couple
+              <span className="title-dots">
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+              </span>
+            </span>
+            <span className="title-line">
+              And 28 other
+              <span className="title-dots">
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+                <span className="dot">.</span>
+              </span>
+            </span>
           </h1>
           <p className="hero-tagline">
-            Uncover secrets hidden within the walls of{' '}
+            Uncover secrets hidden within the walls of{" "}
             <a href="https://www.szidonia.hu/en" className="accent-link">
               Síd​ó​nia Castle
             </a>
@@ -106,29 +134,41 @@ function App() {
           <div className="event-details-grid">
             <div className="detail-card">
               <div className="detail-icon">📅</div>
-              <h3>Dates</h3>
-              <p className="detail-text">January 22-24, 2027</p>
+              <h3>
+                <p className="detail-text">2027 january 22-24</p>
+              </h3>
               <p className="detail-subtext">3 nights of immersive mystery</p>
+              <p className="detail-subtext">
+                To put the psychology tricks into practice, right after the
+                exams
+              </p>
             </div>
 
             <div className="detail-card">
               <div className="detail-icon">🏰</div>
-              <h3>Location</h3>
-              <p className="detail-text">Síd​ó​nia Castle</p>
+              <h3>
+                <p className="detail-text">
+                  <a href="https://www.szidonia.hu/en" className="accent-link">
+                    Síd​ó​nia Castle
+                  </a>
+                </p>
+              </h3>
               <p className="detail-subtext">Hungary</p>
             </div>
 
             <div className="detail-card">
               <div className="detail-icon">🔍</div>
-              <h3>Experience</h3>
-              <p className="detail-text">Interactive Investigation</p>
+              <h3>
+                <p className="detail-text">Interactive Investigation</p>
+              </h3>
               <p className="detail-subtext">Solve mysteries, uncover clues</p>
             </div>
 
             <div className="detail-card">
               <div className="detail-icon">👥</div>
-              <h3>Format</h3>
-              <p className="detail-text">Group Experience</p>
+              <h3>
+                <p className="detail-text">Group Experience</p>
+              </h3>
               <p className="detail-subtext">
                 30 participants, collaborative puzzles
               </p>
