@@ -6,42 +6,14 @@ function App() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">A Weekend of Mystery & Intrigue</h1>
+          <h1 className="hero-title">
+            <span className="title-line">One weekend</span>
+            <span className="title-line">One castle</span>
+            <span className="title-line">One married couple...</span>
+            <span className="title-line">And 28 other</span>
+          </h1>
           <p className="hero-tagline">Uncover secrets hidden within the walls of Síd​ó​nia Castle</p>
           <p className="hero-subtext">Step into darkness. Solve the unsolvable. Become part of the legend.</p>
-        </div>
-      </section>
-
-      {/* Event Details Section */}
-      <section className="event-details-section">
-        <div className="event-details-grid">
-          <div className="detail-card">
-            <div className="detail-icon">📅</div>
-            <h3>Dates</h3>
-            <p className="detail-text">January 22-24, 2027</p>
-            <p className="detail-subtext">3 nights of immersive mystery</p>
-          </div>
-
-          <div className="detail-card">
-            <div className="detail-icon">🏰</div>
-            <h3>Location</h3>
-            <p className="detail-text">Síd​ó​nia Castle</p>
-            <p className="detail-subtext">Hungary</p>
-          </div>
-
-          <div className="detail-card">
-            <div className="detail-icon">🔍</div>
-            <h3>Experience</h3>
-            <p className="detail-text">Interactive Investigation</p>
-            <p className="detail-subtext">Solve mysteries, uncover clues</p>
-          </div>
-
-          <div className="detail-card">
-            <div className="detail-icon">👥</div>
-            <h3>Format</h3>
-            <p className="detail-text">Group Experience</p>
-            <p className="detail-subtext">30 participants, collaborative puzzles</p>
-          </div>
         </div>
       </section>
 
@@ -96,13 +68,44 @@ function App() {
 
       {/* Footer CTA */}
       <section className="footer-section">
-        <h2>Dare to Investigate?</h2>
-        <p className="footer-text">
-          Síd​ó​nia Castle awaits. The mystery calls. January 22-24, 2027.
-        </p>
-        <p className="footer-subtext">
-          An unforgettable weekend in the darkness of history.
-        </p>
+        <div className="footer-content">
+          <div className="event-details-grid">
+            <div className="detail-card">
+              <div className="detail-icon">📅</div>
+              <h3>Dates</h3>
+              <p className="detail-text">January 22-24, 2027</p>
+              <p className="detail-subtext">3 nights of immersive mystery</p>
+            </div>
+
+            <div className="detail-card">
+              <div className="detail-icon">🏰</div>
+              <h3>Location</h3>
+              <p className="detail-text">Síd​ó​nia Castle</p>
+              <p className="detail-subtext">Hungary</p>
+            </div>
+
+            <div className="detail-card">
+              <div className="detail-icon">🔍</div>
+              <h3>Experience</h3>
+              <p className="detail-text">Interactive Investigation</p>
+              <p className="detail-subtext">Solve mysteries, uncover clues</p>
+            </div>
+
+            <div className="detail-card">
+              <div className="detail-icon">👥</div>
+              <h3>Format</h3>
+              <p className="detail-text">Group Experience</p>
+              <p className="detail-subtext">30 participants, collaborative puzzles</p>
+            </div>
+          </div>
+
+          <p className="footer-text">
+            Find out more{' '}
+            <a href="https://gyilkoshetvege.hu/mi-az-a-gyilkos-hetvege" className="footer-link">
+              here
+            </a>
+          </p>
+        </div>
       </section>
     </>
   )
