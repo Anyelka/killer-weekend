@@ -42,6 +42,7 @@ body.no-animations .detail-icon {
   transition: color 0.3s ease;
   text-decoration: none !important;
   font-weight: 700 !important;
+  white-space: nowrap;
 }
 
 .accent-link::after {
@@ -105,7 +106,7 @@ body.no-animations .detail-icon {
 
 .hero-section {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,14 +114,15 @@ body.no-animations .detail-icon {
   background: transparent;
   border-bottom: 2px solid var(--border);
   animation: fadeInHero 0.8s ease-out;
+  overflow: hidden;
 
   @media (max-width: 1024px) {
-    min-height: 80vh;
+    height: 100vh;
     padding: 40px 20px;
   }
 
   @media (max-width: 768px) {
-    min-height: 60vh;
+    height: 100vh;
     padding: 30px 20px;
   }
 }
@@ -140,6 +142,23 @@ body.no-animations .detail-icon {
   max-width: 800px;
   text-align: center;
   animation: fadeInContent 1s ease-out 0.2s backwards;
+}
+
+/* Portrait mode: increase spacing for better vertical distribution */
+@media (max-aspect-ratio: 1/1) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-title {
+    margin-bottom: 40px !important;
+  }
+
+  .hero-tagline {
+    margin-bottom: 32px !important;
+  }
 }
 
 @keyframes fadeInContent {
