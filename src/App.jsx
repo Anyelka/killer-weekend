@@ -1,6 +1,17 @@
 import "./App.css";
+import { useEffect } from "react";
+
+// Set to true to disable all appear animations for testing
+const DISABLE_ANIMATIONS = true;
 
 function App() {
+  useEffect(() => {
+    if (DISABLE_ANIMATIONS) {
+      document.body.classList.add("no-animations");
+    } else {
+      document.body.classList.remove("no-animations");
+    }
+  }, []);
   return (
     <>
       {/* Hero Section */}
@@ -13,7 +24,10 @@ function App() {
             <span className="title-line">And 28 other<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
           </h1>
           <p className="hero-tagline">
-            Uncover secrets hidden within the walls of Síd​ó​nia Castle
+            Uncover secrets hidden within the walls of{' '}
+            <a href="https://www.szidonia.hu/en" className="accent-link">
+              Síd​ó​nia Castle
+            </a>
           </p>
           <p className="hero-subtext">
             Step into darkness. Solve the unsolvable. Become part of the legend.

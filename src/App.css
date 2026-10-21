@@ -1,4 +1,77 @@
 /* ============================================
+   TESTING - DISABLE ANIMATIONS
+   ============================================ */
+
+body.no-animations * {
+  animation: none !important;
+  animation-delay: 0 !important;
+}
+
+body.no-animations .title-line {
+  opacity: 1;
+}
+
+body.no-animations .dot {
+  opacity: 1;
+}
+
+body.no-animations .hero-tagline,
+body.no-animations .hero-subtext {
+  opacity: 1;
+}
+
+body.no-animations .experience-card,
+body.no-animations .detail-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body.no-animations .detail-icon {
+  animation: none !important;
+}
+
+/* ============================================
+   ACCENT LINKS
+   ============================================ */
+
+.accent-link {
+  color: #d4af37 !important;
+  font-size: 1.1em;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.accent-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d4af37;
+  transition: width 0.4s ease;
+}
+
+.accent-link:hover,
+.accent-link:visited {
+  color: #d4af37 !important;
+}
+
+.accent-link:hover::after {
+  width: 100%;
+  background-color: #ffd700;
+}
+
+.accent-link:active,
+.accent-link:focus {
+  color: #ffd700 !important;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+/* ============================================
    HERO SECTION
    ============================================ */
 
