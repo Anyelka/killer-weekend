@@ -627,15 +627,24 @@ body.no-animations .detail-icon {
 
 .footer-link {
   color: var(--accent);
-  text-decoration: underline;
-  font-weight: 900;
+  font-weight: 900 !important;
   font-family: var(--heading);
   font-size: 1.8rem;
   position: relative;
   transition: all 0.3s ease;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
+  text-decoration: none !important;
   letter-spacing: -0.01em;
+}
+
+.footer-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent);
+  transition: width 0.4s ease;
 }
 
 .footer-link:hover {
@@ -643,8 +652,13 @@ body.no-animations .detail-icon {
   text-shadow:
     0 0 10px rgba(212, 175, 55, 0.6),
     0 0 20px rgba(212, 175, 55, 0.4),
-    0 0 30px rgba(212, 175, 55, 0.2);
+    0 0 30px rgba(212, 175, 55, 0.2) !important;
   animation: glowUp 0.6s ease-out;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+  background-color: #ffd700;
 }
 
 .footer-subtext {
