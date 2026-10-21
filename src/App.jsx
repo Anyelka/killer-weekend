@@ -62,9 +62,9 @@ function App() {
               Síd​ó​nia Castle
             </a>
           </p>
-          <p className="hero-subtext">
-            Step into darkness. Solve the unsolvable. Become part of the legend.
-          </p>
+          <p className="hero-subtext">Step into darkness.</p>
+          <p className="hero-subtext">Solve the unsolvable.</p>
+          <p className="hero-subtext">Become part of the legend.</p>
         </div>
       </section>
 
@@ -177,8 +177,8 @@ function App() {
                 <p className="detail-text">Interactive Investigation</p>
               </h3>
               <p className="detail-subtext">
-                Finally you can put your investigation skills to the test and
-                not get murdered on the first night!
+                Finally a place, where you can put your investigation skills to
+                the test and not get murdered on the first night!
               </p>
             </div>
 
