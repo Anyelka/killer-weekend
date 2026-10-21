@@ -144,7 +144,7 @@ function App() {
               <h3>
                 <p className="detail-text">2027 january 22-24</p>
               </h3>
-              <p className="detail-subtext">3 nights of immersive mystery</p>
+              <p className="detail-subtext">2 nights of immersive mystery</p>
               <p className="detail-subtext">
                 To put the psychology tricks into practice, right after the
                 exams
