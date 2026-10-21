@@ -7,10 +7,10 @@ function App() {
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-            <span className="title-line">One weekend</span>
-            <span className="title-line">One castle</span>
-            <span className="title-line">One married couple</span>
-            <span className="title-line">And 28 other</span>
+            <span className="title-line">One weekend<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
+            <span className="title-line">One castle<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
+            <span className="title-line">One married couple<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
+            <span className="title-line">And 28 other<span className="title-dots"><span className="dot">.</span><span className="dot">.</span><span className="dot">.</span></span></span>
           </h1>
           <p className="hero-tagline">
             Uncover secrets hidden within the walls of Síd​ó​nia Castle
